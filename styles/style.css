@@ -1,0 +1,465 @@
+/* Common Styles  */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 100%;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-bottom: 100px;
+}
+
+
+/*----------------
+   Header style start
+   ---------------------*/
+
+.header-section {
+    background-color: #2d25a0;
+    height: 620px;
+    max-width: 100%;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-heading {
+    width: 530px;
+    margin-top: 25px;
+}
+
+.banner-title {
+    color: white;
+    font-size: 32px;
+    line-height: 45px;
+    margin-top: 60px;
+}
+
+.banner-img img {
+    width: 556.01px;
+    height: 438px;
+    margin-top: 50px;
+}
+
+.banner-img:hover img {
+    transform: translate(20px, 20px);
+    transition: transform 1s ease-in-out;
+}
+
+.button {
+    width: 168px;
+    height: 44px;
+    background: #e02c6d;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button span,
+i {
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 12px;
+    padding: 0px 8px;
+}
+
+.button:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}
+
+
+/* Header style End */
+
+
+/*----------------
+   Top Player Style  
+   -------------------*/
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    height: 484px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.player-picture img {
+    width: 300px;
+    height: 256px;
+    margin-top: 15px;
+}
+
+.Player-title {
+    color: #18191f;
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    width: 303px;
+}
+
+.Player-discription {
+    color: #6c6c6c;
+    font-size: 16px;
+    line-height: 26px;
+    width: 300px;
+    margin-top: 0px;
+}
+
+
+/* Top Player Style  End */
+
+
+/* premier league section Style Start  */
+
+.premier-league {
+    margin-bottom: 100px;
+}
+
+.premier-league-table-list {
+    width: 1000px;
+}
+
+.premier-league-table-title {
+    font-size: 2.4em;
+    text-align: center;
+}
+
+.premier-league-table table {
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+.premier-league-table {
+    margin: 0px 0% 30px 0%;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+.premier-league-table-heading {
+    text-align: center;
+    text-decoration: none;
+    color: #2d25a0;
+    margin: 30px;
+    display: block;
+}
+
+.row {
+    text-align: center;
+}
+
+.row td {
+    color: black;
+}
+
+.row:nth-child(odd):hover {
+    color: rgb(108, 108, 108);
+}
+
+table .col {
+    border-bottom: 1px solid #ffffff;
+}
+
+.premier-league-table table {
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+.premier-league-table {
+    margin: 0px 0% 30px 0%;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    background-color: black;
+    color: #f8357d;
+}
+
+.row {
+    text-align: center;
+}
+
+.row td {
+    color: #77ff21;
+}
+
+.row {
+    text-align: center;
+}
+
+.row td {
+    color: black;
+}
+
+.row:nth-child(odd):hover td {
+    background-color: #f8357d;
+    color: white;
+}
+
+.row:nth-child(even):hover td {
+    background-color: #2d25a0;
+    color: white;
+}
+
+table .col {
+    border-bottom: 1px solid #ffffff;
+}
+
+
+/* premier league section Style End  */
+
+
+/* copa america style start  */
+
+.copa-america-title {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.copa-america-final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* copa america style end  */
+
+
+/*--------------------------------
+     Highlights match style Start  
+  ---------------------------------*/
+
+.highlight-section {
+    width: 1000px;
+}
+
+.all-highlights {
+    display: flex;
+    flex-direction: row;
+    margin-top: 165px;
+    margin-bottom: 165px;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight-match {
+    margin-right: 33px;
+}
+
+.highlight-title {
+    width: 469px;
+    height: 309px;
+}
+
+.highlight-title h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 8px;
+}
+
+.highlight-title p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgb(108, 108, 108);
+    margin-bottom: 24px;
+}
+
+.watch-btn {
+    width: 168px;
+    height: 44px;
+    background: rgb(224, 44, 109);
+    text-align: center;
+}
+
+.watch-btn span,
+i {
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 12px;
+    padding: 0px 8px;
+    cursor: pointer;
+}
+
+.highlight-match-img img {
+    width: 567px;
+    height: 427px;
+    margin-left: 33px;
+}
+
+
+/*--------------------------------
+     Highlights match style End  
+  ---------------------------------*/
+
+
+/* Footer section style  */
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.footer-content {
+    width: 483.87px;
+    height: 213px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.fotter-logo img {
+    width: 483.87px;
+    height: 110px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    width: 170px;
+    height: 32px;
+}
+
+.social i {
+    width: 18px;
+    border-radius: 100%;
+    margin-right: 10px;
+    padding: 6px;
+    color: #929292;
+    text-align: center;
+    background-color: #d8d8d8;
+}
+
+
+/* Footer Style end  */
+
+
+/* Media Query Apply for Mobile  Start*/
+
+@media only screen and (max-width: 688px) {
+    .header-section {
+        height: 100%;
+    }
+    .banner {
+        flex-direction: column;
+    }
+    .banner-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .banner-heading {
+        margin-left: -100px;
+    }
+    .banner-img img {
+        width: 50%;
+        height: 70%;
+        margin-left: 20px;
+        padding-bottom: 40px;
+    }
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: -250px;
+    }
+    .premier-league {
+        margin-left: -200px;
+    }
+    .premier-league-table-title {
+        font-size: 1.6em;
+    }
+    .premier-league-table table {
+        width: 10%;
+    }
+    .copa-america-title {
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: -30px;
+        margin-left: -250px;
+        width: 280px;
+    }
+    .copa-america-final {
+        width: 300px;
+        height: 155px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: -250px;
+    }
+    .all-highlights {
+        display: flex;
+        flex-direction: column;
+        margin-left: -10px;
+        width: 900px;
+    }
+    .highlight-title h1 {
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 35px;
+        margin-top: -80px;
+        width: 350px;
+    }
+    .highlight-title p {
+        line-height: 22px;
+        width: 360px;
+    }
+    .highlight-match-img img {
+        width: 367px;
+        height: 260px;
+        margin-left: -130px;
+    }
+    .fotter-logo img {
+        width: 283.87px;
+        height: 110px;
+    }
+    .footer-section {
+        margin-top: -70px;
+        margin-left: -270px;
+    }
+    .social {
+        margin-left: 50px;
+    }
+    .footer-content p {
+        margin-left: 25px;
+    }
+}
